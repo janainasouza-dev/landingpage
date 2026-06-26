@@ -53,3 +53,203 @@ Landing page de portfólio desenvolvida para apresentar meus projetos, habilidad
 
 ## 📂 Estrutura do Projeto
 
+landingpage/
+├── public/
+│ ├── assets/
+│ │ ├── images/
+│ │ │ ├── projetos/
+│ │ │ │ ├── padaria-wecoffe.jpg
+│ │ │ │ └── sistema-manutencao.jpg
+│ │ │ └── icons/
+│ │ └── docs/
+│ │ └── curriculo.pdf
+│ └── index.html
+│
+├── src/
+│ ├── components/
+│ │ ├── common/ # Componentes reutilizáveis
+│ │ ├── layout/ # Header e Footer
+│ │ ├── sections/ # Seções da página
+│ │ └── ui/ # Componentes de interface
+│ │
+│ ├── constants/ # Dados estáticos
+│ │ ├── projetos.js
+│ │ └── habilidades.js
+│ │
+│ ├── hooks/ # Custom hooks
+│ │ └── useScrollTo.js
+│ │
+│ ├── styles/ # Estilos globais
+│ │ ├── global.css
+│ │ └── variables.css
+│ │
+│ ├── App.js
+│ └── index.js
+│
+├── package.json
+└── README.md
+text
+
+
+---
+
+## 🚀 Como Executar o Projeto
+
+### Pré-requisitos
+
+- Node.js (v14 ou superior)
+- npm (v6 ou superior)
+
+### Passo a Passo
+
+1. **Clone o repositório**
+```bash
+git clone https://github.com/seu-usuario/landingpage.git
+cd landingpage
+
+    Instale as dependências
+
+bash
+
+npm install
+
+    Inicie o servidor de desenvolvimento
+
+bash
+
+npm start
+
+    Abra no navegador
+
+text
+
+http://localhost:3000
+
+Build para Produção
+bash
+
+npm run build
+
+Os arquivos otimizados serão gerados na pasta build/.
+🎨 Personalização
+Alterar Cores
+
+Edite o arquivo src/styles/variables.css:
+css
+
+:root {
+  --primary-color: #6C63FF;    /* Cor principal */
+  --primary-dark: #5a52d5;     /* Cor principal escura */
+  --secondary-color: #764ba2;  /* Cor secundária */
+  /* ... outras cores */
+}
+
+Adicionar Projetos
+
+Edite src/constants/projetos.js:
+javascript
+
+export const projetos = [
+  {
+    id: 3,
+    title: "🚀 Novo Projeto",
+    description: "Descrição do seu novo projeto...",
+    image: "/assets/images/projetos/novo-projeto.jpg",
+    tags: ['React', 'Node.js', 'Docker'],
+    demoLink: "#",
+    codeLink: "#"
+  }
+];
+
+Adicionar Habilidades
+
+Edite src/constants/habilidades.js:
+javascript
+
+export const habilidades = [
+  {
+    nome: "Nova Categoria",
+    items: ["Tecnologia 1", "Tecnologia 2"]
+  }
+];
+
+Atualizar Informações Pessoais
+
+Edite os textos nos componentes da pasta src/components/sections/:
+
+    Hero.jsx: Apresentação principal
+
+    Sobre.jsx: Texto sobre você
+
+    Contato.jsx: Informações de contato
+
+🌐 Deploy
+GitHub Pages
+
+    Instale o pacote:
+
+bash
+
+npm install gh-pages --save-dev
+
+    Adicione ao package.json:
+
+json
+
+"homepage": "https://seu-usuario.github.io/landingpage",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+
+    Deploy:
+
+bash
+
+npm run deploy
+
+Vercel
+bash
+
+npm install -g vercel
+vercel
+
+Netlify
+
+Faça upload da pasta build/ ou conecte seu repositório GitHub.
+📱 Responsividade
+
+O projeto é totalmente responsivo e se adapta a:
+
+    📱 Mobile: 320px - 480px
+
+    📱 Tablet: 481px - 768px
+
+    💻 Desktop: 769px - 1200px
+
+    🖥️ Widescreen: 1201px+
+
+📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+👩‍💻 Autora
+
+Janaina Souza
+
+    🔗 LinkedIn
+
+    🐙 GitHub
+
+    ✉️ E-mail
+
+🙏 Agradecimentos
+
+    React
+
+    Create React App
+
+    Emoji Cheat Sheet
+
+📞 Suporte
+
+Se você tiver alguma dúvida ou sugestão, abra uma issue ou entre em contato.
