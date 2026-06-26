@@ -1,0 +1,31 @@
+.contato {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  text-align: center;
+}
+
+.contato .section-title {
+  color: white;
+}
+
+.contato-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.contato-content p {
+  font-size: 1.25rem;
+}
+
+.contato-content .btn-primary {
+  background: white;
+  color: #6C63FF;
+}
+
+.contato-content .btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
