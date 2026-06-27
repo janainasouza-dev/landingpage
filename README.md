@@ -55,45 +55,7 @@ Landing page de portfólio desenvolvida para apresentar meus projetos, habilidad
 
 
 
-landingpage/
-├── public/
-│ ├── assets/
-│ │ ├── images/
-│ │ │ ├── projetos/
-│ │ │ │ ├── padaria-wecoffe.jpg
-│ │ │ │ └── sistema-manutencao.jpg
-│ │ │ └── icons/
-│ │ └── docs/
-│ │ └── curriculo.pdf
-│ └── index.html
-│
-├── src/
-│ ├── components/
-│ │ ├── common/ # Componentes reutilizáveis
-│ │ ├── layout/ # Header e Footer
-│ │ ├── sections/ # Seções da página
-│ │ └── ui/ # Componentes de interface
-│ │
-│ ├── constants/ # Dados estáticos
-│ │ ├── projetos.js
-│ │ └── habilidades.js
-│ │
-│ ├── hooks/ # Custom hooks
-│ │ └── useScrollTo.js
-│ │
-│ ├── styles/ # Estilos globais
-│ │ ├── global.css
-│ │ └── variables.css
-│ │
-│ ├── App.js
-│ └── index.js
-│
-├── package.json
-└── README.md
-text
 
-
----
 
 ## 🚀 Como Executar o Projeto
 
