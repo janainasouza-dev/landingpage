@@ -53,7 +53,81 @@ Landing page de portfólio desenvolvida para apresentar meus projetos, habilidad
 
 ## 📂 Estrutura do Projeto
 
+```
 
+├── Dockerfile                 # Receita para criar container Docker
+├── docker-compose.yml         # Orquestração do Docker
+├── .dockerignore              # Arquivos ignorados pelo Docker
+├── .gitignore                 # Arquivos ignorados pelo Git
+├── index.html                 # Página principal (entry point)
+├── package.json               # Dependências e scripts
+├── package-lock.json          # Versões exatas das dependências
+├── vite.config.js             # Configuração do Vite
+├── README.md                  # Documentação do projeto
+│
+├── public/                    # Arquivos estáticos
+│   └── assets/
+│       ├── images/
+│       │   ├── projetos/
+│       │   │   ├── padaria-wecoffe.jpg
+│       │   │   └── sistema-manutencao.jpg
+│       │   └── icons/
+│       └── docs/
+│           └── curriculo.pdf
+│
+├── src/                       # Código fonte (coração do projeto)
+│   ├── main.jsx               # Ponto de entrada do React
+│   ├── App.jsx                # Componente principal
+│   ├── index.css              # Estilos globais básicos
+│   │
+│   ├── components/            # Componentes React
+│   │   ├── common/            # Componentes reutilizáveis
+│   │   │   ├── Button.jsx
+│   │   │   └── Button.css
+│   │   │
+│   │   ├── layout/            # Componentes estruturais
+│   │   │   ├── Header.jsx
+│   │   │   ├── Header.css
+│   │   │   ├── Footer.jsx
+│   │   │   └── Footer.css
+│   │   │
+│   │   ├── sections/          # Seções da página
+│   │   │   ├── Hero.jsx
+│   │   │   ├── Hero.css
+│   │   │   ├── Sobre.jsx
+│   │   │   ├── Sobre.css
+│   │   │   ├── Projetos.jsx
+│   │   │   ├── Projetos.css
+│   │   │   ├── Habilidades.jsx
+│   │   │   ├── Habilidades.css
+│   │   │   ├── Contato.jsx
+│   │   │   └── Contato.css
+│   │   │
+│   │   └── ui/                # Componentes de interface
+│   │       ├── ProjectCard.jsx
+│   │       ├── ProjectCard.css
+│   │       ├── SocialIcon.jsx
+│   │       └── SocialIcon.css
+│   │
+│   ├── constants/             # Dados estáticos
+│   │   ├── projetos.js
+│   │   └── habilidades.js
+│   │
+│   ├── hooks/                 # Custom Hooks
+│   │   └── useScrollTo.js
+│   │
+│   └── styles/                # Estilos globais
+│       ├── global.css
+│       └── variables.css
+│
+└── dist/                      # Build para produção (criado com npm run build)
+    ├── index.html
+    ├── assets/
+    │   ├── index-xxxxx.js
+    │   └── index-xxxxx.css
+    └── ...
+
+```
 
 
 
