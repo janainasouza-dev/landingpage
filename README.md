@@ -267,27 +267,3 @@ O projeto é totalmente responsivo e se adapta a:
 
     🖥️ Widescreen: 1201px+
 
-📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
-👩‍💻 Autora
-
-Janaina Souza
-
-    🔗 LinkedIn
-
-    🐙 GitHub
-
-    ✉️ E-mail
-
-🙏 Agradecimentos
-
-    React
-
-    Create React App
-
-    Emoji Cheat Sheet
-
-📞 Suporte
-
-Se você tiver alguma dúvida ou sugestão, abra uma issue ou entre em contato.
