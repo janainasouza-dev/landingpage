@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="container">
         <div className="hero-content">
           <div className="hero-text">
-            <p className="hero-greeting">👋 Olá, eu sou a Janaina</p>
+            <p className="hero-greeting"> Olá, eu sou a Janaina Souza</p>
             <h1 className="hero-title">Desenvolvedora Full Stack com foco em arquitetura de software</h1>
             <p className="hero-subtitle">
               Transformo problemas em soluções escaláveis usando microsserviços, Docker e boas práticas de desenvolvimento.

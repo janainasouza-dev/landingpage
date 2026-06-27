@@ -53,6 +53,8 @@ Landing page de portfólio desenvolvida para apresentar meus projetos, habilidad
 
 ## 📂 Estrutura do Projeto
 
+
+
 landingpage/
 ├── public/
 │ ├── assets/
