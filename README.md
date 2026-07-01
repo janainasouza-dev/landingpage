@@ -141,6 +141,7 @@ Landing page de portfólio desenvolvida para apresentar meus projetos, habilidad
 ### Passo a Passo
 
 1. **Clone o repositório**
+
 ```bash
 git clone https://github.com/seu-usuario/landingpage.git
 cd landingpage
@@ -169,7 +170,9 @@ bash
 npm run build
 
 Os arquivos otimizados serão gerados na pasta build/.
+
 🎨 Personalização
+
 Alterar Cores
 
 Edite o arquivo src/styles/variables.css:
@@ -222,6 +225,7 @@ Edite os textos nos componentes da pasta src/components/sections/:
     Contato.jsx: Informações de contato
 
 🌐 Deploy
+
 GitHub Pages
 
     Instale o pacote:
